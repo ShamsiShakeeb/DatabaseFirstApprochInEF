@@ -1,0 +1,11 @@
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\bin\Debug\DBFirstApproach.exe.config
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\bin\Debug\DBFirstApproach.exe
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\bin\Debug\DBFirstApproach.pdb
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\bin\Debug\EntityFramework.dll
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\bin\Debug\EntityFramework.SqlServer.dll
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\bin\Debug\EntityFramework.xml
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\bin\Debug\EntityFramework.SqlServer.xml
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\obj\Debug\DBFirstApproach.csprojAssemblyReference.cache
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\obj\Debug\DBFirstApproach.csproj.CopyComplete
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\obj\Debug\DBFirstApproach.exe
+D:\DotNetProject\DBFirstApproach\DBFirstApproach\obj\Debug\DBFirstApproach.pdb

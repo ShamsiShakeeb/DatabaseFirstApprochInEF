@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Online_E_EducationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ApproveTable">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Date" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="UserType" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NotApproveRegistration">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Date" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserType" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Online_E_EducationModelStoreContainer">
+    <EntitySet Name="ApproveTable" EntityType="Self.ApproveTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotApproveRegistration" EntityType="Self.NotApproveRegistration" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
